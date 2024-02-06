@@ -1,0 +1,13 @@
+#train config
+output : /Results/
+num_test : S_V3_2
+size_img : 64
+learning_rate : 0.01
+num_epochs : 60
+batch_size : 32
+name : UNet
+channel : 6
+augment : True
+weight_decay: 1.0e-5
+depth : 5
+
